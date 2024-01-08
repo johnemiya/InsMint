@@ -21,7 +21,7 @@ _account_address = 0xdD870fA1b7C4700F2BD7f44238821C26f7392148”_
 _account_private_key = ''0x71975fbf7fe448e004ac7ae54cad0a383c3906055a65468714156a07385e96ce”_
 
 
-**2）mint.py文件**
+**2）insMint.py文件**
 
 创建文件命名为 insMint.py (和.env在同一个目录)
 
