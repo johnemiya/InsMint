@@ -30,6 +30,6 @@ _account_private_key = ''0x71975fbf7fe448e004ac7ae54cad0a383c3906055a65468714156
 
 **3）启动/停止**
 
-启动：_python mint.py_
+启动：_python insMint.py_
 
 停止：_Ctrl + C_
