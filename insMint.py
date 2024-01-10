@@ -6,8 +6,8 @@ load_dotenv()
 private_key = os.environ.get('account_private_key')
 adress = os.environ.get('account_address')
 
-#需替换为项目方正式合约
-contract='0x....' 
+#项目方正式合约
+contract='0x4791CbDA3b129B465C2523Cf5D4C4F364965B5AF' 
 
 rpc_url = "https://avalanche.public-rpc.com"
 web3 = Web3(Web3.HTTPProvider(rpc_url))
@@ -24,7 +24,7 @@ while True:
         'from':adress,
         'data':0x646174613a2c7b2270223a226672632d3230222c226f70223a226d696e74222c227469636b223a2265717173222c22616d74223a2231303030227d, 
         'gasPrice': web3.eth.gas_price, #Web3.to_wei(35, 'gwei')
-        'value': Web3.to_wei(0.1, 'ether')
+        'value': Web3.to_wei(0.08, 'ether')
     }
     try:
         gas = web3.eth.estimate_gas(tx)
